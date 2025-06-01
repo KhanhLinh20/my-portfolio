@@ -1,12 +1,6 @@
 import React from 'react';
 import './Welcome.css';
 
-// import jsLogo from '../assets/js.png';
-// import reactLogo from '../assets/react.png';
-// import figmaLogo from '../assets/figma.png';
-// import firebaseLogo from '../assets/firebase.png';
-// import mongoLogo from '../assets/mongodb.png';
-// import githubLogo from '../assets/github.png';
 function Welcome() {
   return (
     <section className="welcome-section text-white d-flex align-items-center">
@@ -24,7 +18,7 @@ function Welcome() {
         </div>
           {/* Text Section */}
           <div className="col-md-6">
-            <p className="badge bg-gradient">✨ Fullstack Developer Portfolio</p>
+            {/* <p className="badge bg-gradient">✨ Fullstack Developer Portfolio</p> */}
             <h1 className="display-4 gradient-text fw-bold">
               Bringing <span>Value</span><br />
               To the <span>Best Projects</span>
