@@ -1,0 +1,11 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #1e1e9d, #6320ee);
+  padding: 1rem 0;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.nav-link {
+  font-size: 1rem;
+  margin: 0 1rem;
+}
