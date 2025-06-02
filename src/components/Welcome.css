@@ -1,6 +1,6 @@
 .welcome-section {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+  /* background: linear-gradient(135deg, #0f172a, #1e293b); */
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
