@@ -1,0 +1,49 @@
+.skills-section {
+  background: linear-gradient(135deg, #1a1a3f, #000c2b);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.skills-section h2 {
+  font-size: 36px;
+  color: #66ccff;
+}
+
+.quote {
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.triangle-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.triangle-row {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.skill-icon {
+  width: 50px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease-out;
+}
+
+.skill-icon.visible {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
