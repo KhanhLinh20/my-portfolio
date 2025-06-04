@@ -8,15 +8,19 @@ function Welcome() {
       <div className="container">
         <div className="row align-items-center">
           {/* Icon Section */}
-          <div className="col-md-6 d-flex flex-wrap justify-content-center icon-container">
-            <iframe
-              src="https://my.spline.design/genkubgreetingrobot-gYiV3fGEPoLreHvriqz8JNI5/"
-              frameBorder="0"
-              width="600px"
-              height="600px"
-              // style={{ maxWidth: '100%', border: 'none', marginLeft: '50px' }}
-            ></iframe>
-          </div>
+          <div className="col-md-6 d-flex justify-content-center align-items-center">
+  <iframe
+    src="https://my.spline.design/genkubgreetingrobot-gYiV3fGEPoLreHvriqz8JNI5/"
+    frameBorder="0"
+    width="100%"
+    height="500px"
+    style={{
+      maxWidth: '500px',
+      border: 'none',
+    }}
+  ></iframe>
+</div>
+
           {/* Text Section */}
           <div className="col-md-6">
             <h1 className="typing-effect display-4 gradient-text fw-bold">
