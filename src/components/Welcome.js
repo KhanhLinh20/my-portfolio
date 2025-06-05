@@ -13,7 +13,8 @@ function Welcome() {
               src="https://my.spline.design/genkubgreetingrobot-gYiV3fGEPoLreHvriqz8JNI5/"
               frameBorder="0"
               width="100%"
-              height="500px"
+              height="400px"
+              style={{ overflow: "visible" }}
             ></iframe>
           </div>
 

@@ -1,15 +1,17 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./About.css";
-// import avatar from '../assets/avatar.jpg';
+import avatar from "../assets/avatar.jpg";
 
 const About = () => {
   return (
-    <section className="about-section" id="about">
+    <section className="about-section d-flex align-items-center" id="about">
       <div className="container">
         <h2 className="about-title">About Me</h2>
-        <div className="about-content">
-          <div className="about-text">
+
+        <div className="row align-items-center">
+          {/* Text column */}
+          <div className="col-md-6 about-text">
             <p className="hello">Hello!</p>
             <h1 className="name">I am Linh</h1>
 
@@ -40,9 +42,12 @@ const About = () => {
             </div>
           </div>
 
-          {/* <div className="about-image">
-            <img src={avatar} alt="avatar" />
-          </div> */}
+          {/* Avatar column */}
+          <div className="col-md-6 d-flex justify-content-center">
+            <div className="about-image">
+              <img src={avatar} alt="avatar" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
